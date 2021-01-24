@@ -19,7 +19,7 @@ RUN apt-get update -q -y \
         unzip \
         git
 
-RUN pip install flask, mysql-connector-python
+RUN pip install -U flask mysql-connector-python
 
 VOLUME /app/
 
